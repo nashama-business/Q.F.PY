@@ -1,10 +1,10 @@
-import React, { useState, useMemo } from 'react';
+import { useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Brain, Code2, AlertCircle, Play, CheckCircle2, XCircle, RotateCcw, BookOpen, Layers, ChevronLeft } from 'lucide-react';
+import { Brain, Code2, AlertCircle, CheckCircle2, XCircle, RotateCcw, BookOpen, Layers, ChevronLeft } from 'lucide-react';
 import questionsData from './data/questions.json';
 import logoImage from '../nb.webp';
 
-type Question = typeof questionsData[0];
+
 
 const CHAPTERS = [
   { id: 2, title: "Introduction to Python Programming", desc: "Variables, Input/Output, Arithmetic" },
